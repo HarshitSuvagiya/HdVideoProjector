@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:background="@drawable/boarder"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="15.0dip"
+            android:paddingBottom="15.0dip">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="?actionBarSize"
+                android:layout_marginBottom="1.0dip"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="Setting"
+                android:textColor="#ff000000"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1.0dip"
+                android:gravity="center|left"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:text="Volume"
+                android:textColor="#ff000000"
+                android:textSize="@dimen/_18sdp" />
+
+            <SeekBar
+                android:id="@+id/sbVolume"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:maxWidth="3.0dip"
+                android:maxHeight="3.0dip"
+                android:minWidth="3.0dip"
+                android:minHeight="3.0dip"
+                android:paddingLeft="@dimen/_20sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:progress="25"
+                android:thumbTint="@color/black"
+                android:progressDrawable="@drawable/seek_progress" />
+
+            <TextView
+                android:id="@+id/tvDone"
+                android:layout_width="90.0dip"
+                android:layout_height="45.0dip"
+                android:layout_gravity="center"
+                android:layout_marginTop="20.0dip"
+                android:background="@drawable/boarder"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Done"
+                android:textColor="@color/font_color"
+                android:textSize="19.0dip" />
+        </LinearLayout>
+
+     </LinearLayout>
+</RelativeLayout>

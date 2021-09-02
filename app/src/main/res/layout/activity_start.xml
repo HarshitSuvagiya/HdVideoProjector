@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mainNativeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <FrameLayout
+            android:id="@+id/nativeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" />
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/tvStartProject"
+        android:layout_width="@dimen/_160sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@drawable/btn_gradiant"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/start_project"
+        android:textSize="@dimen/_16sdp" />
+
+
+</RelativeLayout>
+
+

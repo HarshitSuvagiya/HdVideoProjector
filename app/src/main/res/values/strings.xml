@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Video Projector</string>
+
+    <string name="theme">Theme</string>
+    <string name="select_video">Select Video</string>
+    <string name="project_guide">Project Guide</string>
+    <string name="setting">Setting</string>
+    <string name="start_project">Start Project</string>
+
+    <string name="alert_title">EXIT</string>
+    <string name="alert_message">Are you sure you want to exit ?</string>
+
+    <string name="text1">&lt;p>&amp;emsp;&amp;emsp; As of this writing, there are two main forms of projectors in use (things change pretty fast in the field).&lt;/p>&lt;br/>&lt;p>&amp;emsp;&amp;emsp; There are several features, strengths, or limitations in projectors, but most will run on either LCD or DLP technology. The older technology is the LCD, but this does not mean that it is by any way becoming obsolete.&lt;/p>&lt;br/>&lt;br/>&lt;h4>LCD&lt;/h4>&lt;br/>&lt;p>&amp;emsp;&amp;emsp; LCD stands for Liquid Crystal Display. The way a picture is put on a screen is interesting and not almost as difficult as you would expect. To shine a reasonably strong light through a prism, a bulb is set up.&lt;/p>&lt;br/>&lt;p>&amp;emsp;&amp;emsp; The prism separates the light into the colors of its components and these are sent through tiny LCD screens. The displays themselves are signals sent at particular pixel positions to allow only so much of the light to pass through. The light is then beamed onto a projector through a lens where the pictures can be seen by the human eye.&lt;/p></string>
+    <string name="text2">&lt;br/>&lt;h4>DLP&lt;/h4>&lt;br/>&lt;p>&amp;emsp;&amp;emsp; A little more complicated is DLP or Digital Light Processing. The light is shone onto a chip that is mounted with hundreds of thousands of tiny mirrors through a revolving color wheel this time. Depending on the need for the color at that moment, the mirrors are switched off or on by electronic impulses. Although only one color is displayed at a time, one color so easily matches another that the primary colors appear to blend into the suitable color. The picture appears to be continuously illuminated, while tiny portions of it are actually constantly flickering.&lt;/p>&lt;br/>&lt;p>&amp;emsp;&amp;emsp; Texas Instruments developed this technology and it is based on an older technology that was used in the 1950s for color television.&lt;/p></string>
+    <string name="text3">&lt;br/>&lt;h4>Difference&lt;/h4>&lt;br/>&lt;p>&amp;emsp;&amp;emsp; Knowing the difference between these two types of projectors can be crucial because for static or high-contrast images, LCD is considered better. For video, DLP, with its more vibrant colors, is thought to be better.&lt;/p>&lt;br/>&lt;p>&amp;emsp;&amp;emsp; It is understood that certain DLP projectors have a rainbow effect. This can happen when, on a dark background, white objects pass. Small shadows of red, blue, or green can be seen. Most modern DLP projectors have solved this problem with multiple chips and higher rotation speeds for the color wheel.&lt;/p></string>
+
+</resources>

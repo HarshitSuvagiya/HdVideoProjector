@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "35281511124",
+    "project_id": "new-hd-video-projector-e035e",
+    "storage_bucket": "new-hd-video-projector-e035e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35281511124:android:ae1fd25a0cf5f77a7a5141",
+        "android_client_info": {
+          "package_name": "com.cashfish.mobileprojectorvideo.simulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35281511124-pgobc9oktvakh90hsjk059ad31kisoij.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6vnAiAk-pTxfoLSs3CP8Th7GgiJMfr5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35281511124-pgobc9oktvakh90hsjk059ad31kisoij.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
